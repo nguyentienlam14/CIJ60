@@ -1,0 +1,75 @@
+* {
+    background: #222222
+}
+.film-container {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    padding: 2px;
+    background: #4F4E52 url(../img/item_bg.gif) repeat;
+    border-bottom: 1px solid #868489;
+    color: #ddd;
+    height: auto;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+}
+.film-container .film-image {
+    padding: 10px;
+    height: 300px;
+    background-image: url('http://image.phimmoizz.net/film/12404/poster.medium.jpg');
+    background-size: 100% 100%;
+    
+}
+.film-container .film-image > * {
+    padding: absolute;
+    color: #fff;
+    background: #A21D0A;
+    font-size: 11px;
+    font-weight: bold;
+    clear: both;
+    padding: 4px;
+    text-shadow: 1px 1px 2px #111;
+    left: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    box-shadow: 2px 2px 3px 0px rgb(0 0 0 / 75%);
+}
+.film-container .film-info {
+
+    margin: 2px 2px;
+    position: relative;
+    padding: 5px;
+    color: #ddd;
+    height: auto;
+    display: block;
+    
+}
+.film-container .film-info .film-name {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    color: #44e2ff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.film-container .film-info .film-directors {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    line-height: normal;
+    color: #ccc;
+    font-size: 12px;
+    text-decoration: none;
+    padding-top: 4px;
+}
+.film-container .film-info .film-duration {
+    font-size: 12px;
+    color: #777;
+    line-height: normal;
+}
